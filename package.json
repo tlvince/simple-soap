@@ -1,11 +1,14 @@
 {
   "name": "simple-soap",
-  "version": "0.0.0",
   "description": "Simplified soap client",
   "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tlvince/simple-soap.git"
+    "url": "https://github.com/tlvince/simple-soap.git"
   },
   "keywords": [
     "soap"
@@ -25,5 +28,9 @@
   "files": [
     "index.js"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^4.3.5",
+    "standard": "^7.1.2"
+  }
 }
