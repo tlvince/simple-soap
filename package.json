@@ -1,0 +1,29 @@
+{
+  "name": "simple-soap",
+  "version": "0.0.0",
+  "description": "Simplified soap client",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/simple-soap.git"
+  },
+  "keywords": [
+    "soap"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "node": ">=5"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/simple-soap/issues"
+  },
+  "homepage": "https://github.com/tlvince/simple-soap#readme",
+  "dependencies": {
+    "pify": "^2.3.0",
+    "soap": "^0.16.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
